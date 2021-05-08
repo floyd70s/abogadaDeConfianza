@@ -48,7 +48,7 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Treact Inc.</LogoText>
+              <LogoText>Abogada de confianza.</LogoText>
             </LogoContainer>
             <CompanyAddress>
               123 Road, New Startup Building

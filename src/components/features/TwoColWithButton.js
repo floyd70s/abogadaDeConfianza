@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Abogada de confianza es un concepto que tiene como fin ayudar a resolver tus problemas legales de una forma cercana y afectiva, comprendiendo que puedes estar pasando momentos difíciles, donde utilizaremos herramientas tecnológicas para mantenernos en contacto y apoyarte en todo momento.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,

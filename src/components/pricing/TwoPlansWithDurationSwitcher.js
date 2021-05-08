@@ -69,35 +69,37 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 `;
 
 export default ({
-  subheading = "Pricing",
-  heading = "Flexible Plans.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  subheading = "Precios",
+  heading = "Asesorías Jurídicas",
+  description = "Divorcio, Alimentos, Relación directa y regular, Autorización salida del Pais, Cambio de nombre, Posesiones efectivas, Estudios de titulo, Redacción o revisión de contratos, Otras materias afines",
   plans = null,
-  primaryButtonText = "Buy Now",
+  primaryButtonText = "Agenda ahora",
   planDurations = [
     {
-      text: "Month",
-      switcherText: "Monthly",
+      text: "",
+      switcherText: "",
     },
     {
-      text: "Year",
-      switcherText: "Yearly",
+      text: "",
+      switcherText: "",
     }
   ]
 }) => {
   const defaultPlans = [
     {
-      name: "Free Plan",
-      durationPrices: ["$0", "$0"],
-      mainFeature: "For Personal Blogs",
-      features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
+      name: "Consulta Express",
+      durationPrices: ["$10.000"],
+      mainFeature: "Asesoría Jurídica express",
+      features: ["Duración de 20 minutos", "Online", "Se responderán todas las dudas y consultas ", "Asistencia y recomendaciones"]
     },
+
+    
     {
-      name: "Pro Plan",
-      durationPrices: ["$49", "$499"],
-      mainFeature: "Suited for Production Websites",
-      features: ["60 Templates", "8 Landing Pages", "22 Internal Pages", "Priority Assistance", "Lifetime Updates"],
-      featured: true
+      name: "Consulta Pro",
+      durationPrices: ["$18.000"],
+      mainFeature: "Asesoría Completa",
+      features: ["Duración de 1 hora", "Online", "Revisión de documentos", "Revisión de causas", "Contratos", "Terrenos", "Herencias"],
+      
     }
   ];
 
@@ -112,11 +114,6 @@ export default ({
           {subheading && <Subheading>{subheading}</Subheading>}
           <Heading>{heading}</Heading>
           {description && <Description>{description}</Description>}
-        <PlanDurationSwitcher>
-          {planDurations.map((planDuration, index) => (
-            <SwitchButton active={activeDurationIndex === index} key={index} onClick={() => setActiveDurationIndex(index)}>{planDuration.switcherText}</SwitchButton>
-          ))}
-        </PlanDurationSwitcher>
         </HeaderContainer>
         <PlansContainer>
           {plans.map((plan, index) => (
@@ -124,7 +121,7 @@ export default ({
               <PlanHeader>
                 <span className="priceAndDuration">
                   <span className="price">{plan.durationPrices[activeDurationIndex]}</span>
-                  <span className="slash"> / </span>
+                  <span className="slash">  </span>
                   <span className="duration">{planDurations[activeDurationIndex].text}</span>
                 </span>
                 <span className="name">{plan.name}</span>

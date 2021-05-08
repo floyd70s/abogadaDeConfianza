@@ -9,13 +9,8 @@ import FAQ from "components/faqs/SingleCol.js";
 export default () => {
   return (
     <AnimationRevealPage>
-      <Header />
       <Pricing />
-      <Testimonial
-        heading="Our Paying Customers"
-      />
       <FAQ />
-      <Footer/>
     </AnimationRevealPage>
   );
 };

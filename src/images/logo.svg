@@ -1,4 +1,15 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="12" y="12" width="232" height="232" rx="13" fill="#6415FF"/>
-<path d="M78.6614 96.3636H112.786V185H143.144V96.3636H177.269V71.5455H78.6614V96.3636Z" fill="white"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6415FF;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:250px;}
+	.st4{fill:none;}
+</style>
+<path class="st0" d="M25,12h206c7.2,0,13,5.8,13,13v206c0,7.2-5.8,13-13,13H25c-7.2,0-13-5.8-13-13V25C12,17.8,17.8,12,25,12z"/>
+<text transform="matrix(1 0 0 1 49 210)" class="st1 st2 st3">A</text>
+<rect x="-1" class="st4" width="256" height="256"/>
 </svg>

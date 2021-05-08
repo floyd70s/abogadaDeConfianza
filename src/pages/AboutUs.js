@@ -11,7 +11,7 @@ import MainFeature1 from "components/features/TwoColWithButton.js";
 import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
-
+import Cercania from 'images/cercania.png'
 import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomerLoveIconImage from "images/simple-icon.svg";
@@ -20,48 +20,37 @@ const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
   return (
     <AnimationRevealPage>
-      <Header />
       <MainFeature1
-        subheading={<Subheading>About Treact</Subheading>}
-        heading="We are a modern desgin agency."
+        subheading={<Subheading>Abogada de Confianza</Subheading>}
+        heading="Un concepto moderno y cercano"
         buttonRounded={false}
-        primaryButtonText="See Portfolio"
-        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
-      />
-      <MainFeature1
-        subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the desgin space."
-        buttonRounded={false}
-        primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
-        textOnLeft={false}
+        primaryButtonText="Ver Portfolio"
+        imageSrc={Cercania}
       />
       <Features
-        subheading={<Subheading>Our Values</Subheading>}
-        heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        subheading={<Subheading>Mis Valores</Subheading>}
+        heading="Confianza, cercanía y confidencialidad."
+        description="Confianza es un valor que se construye día a día, acompañandote en solucionar tus problemas."
         cards={[
           {
             imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Escucha activa",
+            description: "Una escucha real y efectiva me permite desarrollar un alto grado de atención y entendimiento de cualquier problema del tipo legal."
           },
           {
             imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Fuertes conocimientos",
+            description: "Mis habilidades técnicas en el derecho me permiten posicionarme a un nivel de excelencia profesional."
           },
           {
             imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Clientes felices",
+            description: "El mejor reflejo de un trabajo bien hecho son clientes felices."
           },
         ]}
         linkText=""
       />
-      <TeamCardGrid 
-        subheading={<Subheading>Our Team</Subheading>}
-      />
+     
       <Footer />
     </AnimationRevealPage>
   );

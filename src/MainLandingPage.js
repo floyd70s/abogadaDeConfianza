@@ -121,7 +121,7 @@ export default ({
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              Treact
+              Abogada de confianza
             </LogoLink>
             <DownloadLink target="_blank" href="https://gum.co/QaruQ">
               Download Now

@@ -39,27 +39,27 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 
 
 export default ({
-  subheading = "FAQS",
-  heading = "You have Questions ?",
+  subheading = "Revisa acá las preguntas más frecuentes de nuestros clientes.",
+  heading = "Preguntas Frecuentes",
   description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "¿Qué ocurre si después de una sesión aún tengo dudas?",
       answer:
         "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "¿Puedo agendar más de 1 sesión?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "¿Si mi problema necesita de un abogado que debo hacer?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      question: "Where can I reach you for support ?",
+      question: "¿Cómo puedo hacer seguimiento de mi caso?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }
