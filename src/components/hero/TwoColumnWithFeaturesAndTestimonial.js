@@ -73,12 +73,12 @@ export default ({
   ];
   return (
     <>
-      <Header links={navLinks} />
+      {/*  <Header links={navLinks} />*/}
       <Container>
         <ContentWithVerticalPadding>
           <Row>
             <TextColumn> 
-              <Heading>{heading_sub}</Heading>
+              <Heading>{heading_sub}</Heading> 
               <Description>{heading}</Description>
               <Description>{description}</Description>
               <PrimaryButton as="a" href={primaryButtonUrl} css={buttonRoundedCss}>

@@ -41,27 +41,27 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "Revisa acá las preguntas más frecuentes de nuestros clientes.",
   heading = "Preguntas Frecuentes",
-  description = "And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  description = "Por si aún tienes duda, acá van algunas respuestas a preguntas realizadas por nuestros propios clientes.",
   faqs = [
     {
       question: "¿Qué ocurre si después de una sesión aún tengo dudas?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Puedes volver a agendar una nueva sesión, aunque si necesitas mas de una sesión para aclarar tu situación, lo más probable es que necesites asesoria jurídica para tu problema."
     },
     {
       question: "¿Puedo agendar más de 1 sesión?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "puedes agendar las sesiones que quieras o necesites, aunque la experiencia me indica que si necesitas agendar más de una sesión es porque lo más probable es que necesites asesoria jurídica para tu problema."
     },
     {
       question: "¿Si mi problema necesita de un abogado que debo hacer?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Dependiendo del tipo de problema, al final de la sesión de consultas revisaremos los pasos a seguir donde te explico mi forma de trabajo, las condiciones y los valores asociados."
     },
     {
       question: "¿Cómo puedo hacer seguimiento de mi caso?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Al final de la sesión revisaremos mi forma de trabajo, las condiciones y trato."
     }
   ]
 }) => {

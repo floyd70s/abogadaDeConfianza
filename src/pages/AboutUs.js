@@ -51,7 +51,7 @@ export default () => {
         linkText=""
       />
      
-      <Footer />
+      {/* <Footer /> */}
     </AnimationRevealPage>
   );
 };
